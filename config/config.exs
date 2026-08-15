@@ -29,7 +29,7 @@ config :phoenix, :json_library, Jason
 config :phoenix, :trim_on_html_eex_engine, false
 
 config :esbuild,
-  version: "0.14.0",
+  version: "0.28.2",
   default: [
     args: ~w(js/app.js --bundle --target=es2016 --outdir=../priv/static/js/),
     cd: Path.expand("../assets", __DIR__),
